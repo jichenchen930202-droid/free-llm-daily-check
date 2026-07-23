@@ -1,0 +1,32 @@
+{
+  "name": "free-llm-daily-check",
+  "version": "1.0.0",
+  "description": "检索当日仍可免费使用的大语言模型，严格筛选永久免费或每日重置免费额度的模型",
+  "keywords": [
+    "ai",
+    "llm",
+    "free-models",
+    "skill"
+  ],
+  "author": "Agnes Code",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/free-llm-daily-check.git"
+  },
+  "config": {
+    "skill_type": "agentic-skill",
+    "framework": "Agnes AI",
+    "trigger_keywords": [
+      "免费大模型",
+      "免费AI模型推荐",
+      "不用付费的AI",
+      "免费大模型清单"
+    ],
+    "dependencies": [
+      "web_search (deep_research mode)",
+      "read_webpage",
+      "record_evidence"
+    ]
+  }
+}
